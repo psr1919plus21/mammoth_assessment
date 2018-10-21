@@ -12,7 +12,7 @@ class IllegalExpressionException(Exception):
 	Custom Exception for handling incorrect expressions 
 	For Example -
 	1. 11++++   --> operators exceeding operands
-	2. 11111+-  --> stack list will be left with two or more operand due to less operators    
+	2. 11111+-  --> No. of operators is significantly more than no. of oprends    
 	"""
 	def __init__(self, message):
 		super().__init__(message)
